@@ -1,0 +1,77 @@
+//nav
+.desktop {
+    //padding: 20px;
+    ul {
+      display: flex;
+    }
+    li {
+      padding: 20px;
+      list-style-type: none;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      border-radius: 10px;
+      &:hover {
+        background:$header;
+        color: $navbar;
+        
+      }
+      &:active {
+        opacity: 1;
+        background:$header;
+        color:$navbar;
+        a {
+          color:$navbar;
+        }
+      }
+    }
+  }
+
+
+  .hamburgerMenu {
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    .menuImg{
+        margin: 35px 0 20px 20px;//trbl
+    }
+
+
+   
+  }
+  
+  .navBar {
+    display: none;
+  }
+  
+  .mobile {
+    background: $navbar;
+    z-index: 1;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    flex-direction: column;
+    left: 0;
+    margin-top: 50px;
+  
+    li {
+      padding: 20px;
+      font-size: 5vw;
+      font-family:$secondary-font;
+      text-align: center;
+
+      &:hover {
+        background:$tagline;
+        color: $navbar;
+        
+      }
+    }
+
+
+
+  }
+  
+  .toggle {
+    display: block;
+  }

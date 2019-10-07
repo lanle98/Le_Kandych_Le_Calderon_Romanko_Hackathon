@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="29" height="7" viewBox="0 0 29 7">
+  <g id="menu" transform="translate(29.058 -192.095) rotate(90)">
+    <g id="Group_10" data-name="Group 10" transform="translate(191.704 -0.184)">
+      <g id="Group_9" data-name="Group 9" transform="translate(0 0)">
+        <circle id="Ellipse_1" data-name="Ellipse 1" cx="3.5" cy="3.5" r="3.5" transform="translate(0.391 11.242)" fill="#fff"/>
+        <circle id="Ellipse_2" data-name="Ellipse 2" cx="3.5" cy="3.5" r="3.5" transform="translate(0.391 22.242)" fill="#fff"/>
+        <circle id="Ellipse_3" data-name="Ellipse 3" cx="3.5" cy="3.5" r="3.5" transform="translate(0.391 0.242)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,10 +1,10 @@
 {
-  "name": "le_kandych_le_calderon_romanko_hackathon",
+  "name": "app",
   "version": "1.0.0",
   "description": "## It doen't cost. It saves. ThermoSecurity is a home automation service that is specifically designed to control smart home accessories ( temperature, lights, switches, cameras, etc.) and keep users informed about what’s happening around their property even when they’re away. Users can easily manage their smart ThermoSecurity devices via the HouseCom website,  iOS or Android app or smartwatch.  ![Image description]()",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app"
   },
   "repository": {
     "type": "git",

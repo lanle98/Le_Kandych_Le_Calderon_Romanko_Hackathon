@@ -1,3 +1,213 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald|PT+Sans&display=swap");
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "Montserrat", sans-serif;
+  vertical-align: baseline;
+  color: white;
+  text-decoration: none; }
 
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol,
+ul {
+  list-style: none; }
+
+blockquote,
+q {
+  quotes: none; }
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+button {
+  border: none; }
+
+p {
+  line-height: 1.5em;
+  text-align: justify;
+  font-weight: lighter; }
+
+body {
+  background-color: #212121;
+  margin: 0;
+  padding: 0;
+  font-size: 1.4rem;
+  font-family: "PT Sans", Halvetica, sans-serif;
+  color: #F4ECEC; }
+
+ul li {
+  text-decoration: none; }
+
+.hidden {
+  display: none; }
+
+.overflow {
+  overflow: hidden; }
+
+header {
+  min-height: 10px;
+  background-color: #191919;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+.desktop ul {
+  display: flex; }
+.desktop li {
+  padding: 20px;
+  list-style-type: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 10px; }
+  .desktop li:hover {
+    background: #F4ECEC;
+    color: #161515; }
+  .desktop li:active {
+    opacity: 1;
+    background: #F4ECEC;
+    color: #161515; }
+    .desktop li:active a {
+      color: #161515; }
+
+.hamburgerMenu {
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around; }
+  .hamburgerMenu .menuImg {
+    margin: 35px 0 20px 20px; }
+
+.navBar {
+  display: none; }
+
+.mobile {
+  background: #161515;
+  z-index: 1;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  flex-direction: column;
+  left: 0;
+  margin-top: 50px; }
+  .mobile li {
+    padding: 20px;
+    font-size: 5vw;
+    font-family: "PT Sans", Halvetica, sans-serif;
+    text-align: center; }
+    .mobile li:hover {
+      background: #1A9199;
+      color: #161515; }
+
+.toggle {
+  display: block; }
 
 /*# sourceMappingURL=main.css.map */
