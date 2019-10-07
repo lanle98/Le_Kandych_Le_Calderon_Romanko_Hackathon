@@ -136,7 +136,17 @@ p {
   font-weight: lighter; }
 
 body {
-  background-color: #0A0A0A;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0a0a0a+19,013464+64,0a0a0a+100 */
+  background: #0a0a0a;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #0a0a0a 19%, #013464 64%, #0a0a0a 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #0a0a0a 19%, #013464 64%, #0a0a0a 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #0a0a0a 19%, #013464 64%, #0a0a0a 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a0a0a', endColorstr='#0a0a0a',GradientType=0 );
+  /* IE6-9 */
   margin: 0;
   padding: 0;
   font-size: 1.4rem;
@@ -157,6 +167,19 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between; }
+
+.headline {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 3vh; }
+
+.text {
+  padding: 30px;
+  font-size: 2vh;
+  text-align: justify;
+  max-width: 600px;
+  margin: 0 auto; }
 
 .logo {
   width: 75%;
@@ -219,7 +242,13 @@ header {
 
 @media screen and (min-width: 758px) {
   .mobile li {
-    font-size: 3vh; } }
+    font-size: 3vh; }
+
+  .text {
+    font-size: 3vh; }
+
+  .logo2 {
+    max-width: 30%; } }
 @media screen and (min-width: 1024px) {
   .logo {
     width: 100%; }
@@ -236,6 +265,12 @@ header {
         font-size: 20px;
         margin: 40px 40px 40px 40px; }
     .navigationBar .hamburgerMenu {
-      display: none; } }
+      display: none; }
+
+  .headline {
+    font-size: 5vh; } }
+.logo2 {
+  display: block;
+  margin: 0 auto; }
 
 /*# sourceMappingURL=main.css.map */
