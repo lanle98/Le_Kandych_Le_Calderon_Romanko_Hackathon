@@ -136,7 +136,7 @@ p {
   font-weight: lighter; }
 
 body {
-  background-color: #212121;
+  background-color: #0A0A0A;
   margin: 0;
   padding: 0;
   font-size: 1.4rem;
@@ -154,10 +154,13 @@ ul li {
 
 header {
   min-height: 10px;
-  background-color: #191919;
   display: flex;
   flex-direction: row;
   justify-content: space-between; }
+
+.logo {
+  width: 75%;
+  margin: 20%; }
 
 .desktop ul {
   display: flex; }
@@ -182,9 +185,13 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around; }
-  .hamburgerMenu .menuImg {
-    margin: 35px 0 20px 20px; }
+  justify-content: space-around;
+  margin: 50px 30px 0 30px; }
+  .hamburgerMenu div {
+    width: 40px;
+    height: 5px;
+    background: white;
+    border-radius: 20px; }
 
 .navBar {
   display: none; }
@@ -197,10 +204,10 @@ header {
   position: absolute;
   flex-direction: column;
   left: 0;
-  margin-top: 50px; }
+  margin-top: 120px; }
   .mobile li {
     padding: 20px;
-    font-size: 5vw;
+    font-size: 3vh;
     font-family: "PT Sans", Halvetica, sans-serif;
     text-align: center; }
     .mobile li:hover {
@@ -209,5 +216,26 @@ header {
 
 .toggle {
   display: block; }
+
+@media screen and (min-width: 758px) {
+  .mobile li {
+    font-size: 3vh; } }
+@media screen and (min-width: 1024px) {
+  .logo {
+    width: 100%; }
+
+  .mobile {
+    display: none; }
+
+  .navigationBar {
+    padding: 0px;
+    align-items: center; }
+    .navigationBar .desktop {
+      display: block; }
+      .navigationBar .desktop li {
+        font-size: 20px;
+        margin: 40px 40px 40px 40px; }
+    .navigationBar .hamburgerMenu {
+      display: none; } }
 
 /*# sourceMappingURL=main.css.map */
