@@ -1,0 +1,29 @@
+{
+  "name": "le_kandych_le_calderon_romanko_hackathon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lanle98/Le_Kandych_Le_Calderon_Romanko_Hackathon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lanle98/Le_Kandych_Le_Calderon_Romanko_Hackathon/issues"
+  },
+  "homepage": "https://github.com/lanle98/Le_Kandych_Le_Calderon_Romanko_Hackathon#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.6.4",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.0.5",
+    "mysql": "^2.17.1"
+  }
+}
