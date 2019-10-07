@@ -1,3 +1,9 @@
+
+.logo{
+    width: 75%;
+    margin: 20%;
+}
+
 //nav
 .desktop {
     //padding: 20px;
@@ -33,9 +39,14 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    .menuImg{
-        margin: 35px 0 20px 20px;//trbl
-    }
+    margin: 50px 30px 0 30px;//trbl
+    div {
+        width: 40px;
+        height: 5px;
+        background: white;
+        border-radius: 20px;
+        
+      }
 
 
    
@@ -53,11 +64,11 @@
     position: absolute;
     flex-direction: column;
     left: 0;
-    margin-top: 50px;
+    margin-top: 120px;
   
     li {
       padding: 20px;
-      font-size: 5vw;
+      font-size: 3vh;
       font-family:$secondary-font;
       text-align: center;
 
@@ -74,4 +85,49 @@
   
   .toggle {
     display: block;
+  }
+
+
+  //Tablet
+@media screen and (min-width: 758px){
+.mobile{
+    li{
+        font-size: 3vh;
+    }
+}
+
+
+}
+
+
+
+
+  //Desktop
+  @media screen and (min-width: 1024px) {
+
+    .logo{
+        width: 100%;
+    }
+    .mobile {
+      display: none;
+    
+    }
+    .navigationBar {
+        padding: 0px;
+      align-items: center;
+
+  
+      .desktop {
+        display: block;
+  
+        li {
+          font-size: 20px;
+          margin: 40px 40px 40px 40px;
+        }
+      }
+  
+      .hamburgerMenu {
+        display: none;
+      }
+    }
   }
