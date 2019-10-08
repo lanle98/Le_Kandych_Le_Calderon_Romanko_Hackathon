@@ -41,8 +41,11 @@ sql.getConnection((err, connection) => {
 
   sql.query(roomName, (err, rows) => {
     rows.forEach((e, index) => {
-      app.get(`/${rows[index].Room}`, (req, res) => {
-        res.render("room", { temp: rows[index].Temperature });
+      app.get(`/${rows[index].Lowercase}`, (req, res) => {
+        res.render("room", {
+          temp: rows[index].Temperature,
+          light: rows[index].Light
+        });
       });
     });
   });
@@ -50,8 +53,11 @@ sql.getConnection((err, connection) => {
   sql.query(securityName, (err, rows) => {
     connection.release();
     rows.forEach((e, index) => {
-      app.get(`/${rows[index].Link}`, (req, res) => {
-        res.render("security", { description: rows[index].Description });
+      app.get(`/${rows[index].Lowercase}`, (req, res) => {
+        res.render("security", {
+          description: rows[index].Description,
+          status: `${rows[index].Status}`
+        });
       });
     });
   });

@@ -16,9 +16,22 @@
     position: absolute;
   }
 
+  p {
+    font-size: 2vw;
+  }
+
+  .intro {
+    font-size: 5vw;
+    text-align: center;
+  }
+
   a {
-    font-size: 5%;
+    font-size: 2vw;
     padding: 20px;
+
+    img {
+      width: 4vw;
+    }
   }
 }
 
@@ -26,7 +39,7 @@
 .security {
   display: flex;
   position: absolute;
-  top: 10%;
+  top: 5%;
 }
 
 .thermo-btn {
@@ -42,6 +55,7 @@
   display: flex;
   width: 50vw;
   justify-content: space-between;
+  align-items: center;
   position: absolute;
   h1 {
     font-size: 10vw;
