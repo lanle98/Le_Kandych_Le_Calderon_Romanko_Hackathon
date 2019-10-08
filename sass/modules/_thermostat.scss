@@ -28,10 +28,16 @@
   a {
     font-size: 2vw;
     padding: 20px;
+    opacity: 0.5;
 
     img {
       width: 4vw;
     }
+  }
+
+  a:hover {
+    opacity: 1;
+    transition: 0.5s;
   }
 }
 
