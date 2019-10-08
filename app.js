@@ -24,14 +24,18 @@ app.get("/", (red, res) => {
 app.get("/rooms", (red, res) => {
   console.log("room");
 
-  res.render("room");
+  res.render("room", {
+    instruction: "Click on each room to see the temperature and light status"
+  });
   //res.sendFile(path.join(__dirname + '/views/index.html'));
 });
 
 app.get("/security", (red, res) => {
   console.log("security");
 
-  res.render("security");
+  res.render("security", {
+    instruction: "Click on each door to see if the door is locked or not"
+  });
   //res.sendFile(path.join(__dirname + '/views/index.html'));
 });
 
