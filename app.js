@@ -35,10 +35,13 @@ app.get("/security", (red, res) => {
   //res.sendFile(path.join(__dirname + '/views/index.html'));
 });
 
+//get sql connection
 sql.getConnection((err, connection) => {
+  //create var for tables
   let roomName = "SELECT * FROM tbl_rooms";
   let securityName = "SELECT * FROM tbl_security";
 
+  //fetching data from tbl_rooms
   sql.query(roomName, (err, rows) => {
     rows.forEach((e, index) => {
       app.get(`/${rows[index].Lowercase}`, (req, res) => {
@@ -50,6 +53,7 @@ sql.getConnection((err, connection) => {
     });
   });
 
+  //fetching data from tbl_security
   sql.query(securityName, (err, rows) => {
     connection.release();
     rows.forEach((e, index) => {
