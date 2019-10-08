@@ -18,7 +18,10 @@
   "homepage": "https://github.com/lanle98/Le_Kandych_Le_Calderon_Romanko_Hackathon#readme",
   "devDependencies": {
     "autoprefixer": "^9.6.4",
+    "cssnano": "^4.1.10",
     "gulp": "^4.0.2",
+    "gulp-imagemin": "^6.1.1",
+    "gulp-postcss": "^8.0.0",
     "gulp-sass": "^4.0.2"
   },
   "dependencies": {
