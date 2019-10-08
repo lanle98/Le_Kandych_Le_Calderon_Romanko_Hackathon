@@ -2,7 +2,7 @@
 
 ## It doen't cost. It saves.
 ThermoSecurity is a home automation service that is specifically designed to control smart home accessories ( temperature, lights, switches, cameras, etc.) and keep users informed about what’s happening around their property even when they’re away. Users can easily manage their smart ThermoSecurity devices via the HouseCom website,  iOS or Android app or smartwatch. 
-![Image description]()
+![Image description](public/images/white_background_img01.jpg)
 
 
 ## How it works?
@@ -12,7 +12,7 @@ enabled home personal and secure environment control system . All communications
 system are accessible and controlled through the wall unit, product app. and the secured portal on the parent
 website. The HouseCom™ ThermoSecurity™ System App. is available on both iOS and Android devices.
 
-![Image description]()
+![Image description](public/images/mockup_desktop_full.png)
 
 
 
@@ -35,8 +35,17 @@ website. The HouseCom™ ThermoSecurity™ System App. is available on both iOS 
 ## Workspace (design)
 * Adobe XD
 * Adobe Photoshop/Illustrotor
+* Adobe InDesign
 
 ## Authors
+* **Lan Le** -*Developer*
+* **Vira Romanko** -*Developer*
+* **Jimmy Calderon** -*Progect Manager*
+* **Yuliia Kandych** -*Designer*
+* **Tien Le** -*Designer*
+
+
+
 
 
 ## Acknowledgment/References
