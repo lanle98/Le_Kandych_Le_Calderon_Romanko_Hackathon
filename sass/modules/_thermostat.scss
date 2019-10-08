@@ -1,0 +1,15 @@
+.thermostat {
+  background: url(../images/thermostatfron_blackt.png);
+  width: 100vw;
+  height: 300px;
+  background-size: cover;
+  justify-content: center;
+  display: flex;
+  position: relative;
+}
+
+.rooms {
+  display: flex;
+  position: absolute;
+  top: 20%;
+}
