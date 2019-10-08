@@ -179,7 +179,8 @@ header {
   font-size: 2vh;
   text-align: justify;
   max-width: 600px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  margin-bottom: 20px; }
 
 .logo {
   width: 75%;
@@ -248,7 +249,7 @@ header {
     font-size: 3vh; }
 
   .logo2 {
-    max-width: 30%; } }
+    width: 45%; } }
 @media screen and (min-width: 1024px) {
   .logo {
     width: 100%; }
