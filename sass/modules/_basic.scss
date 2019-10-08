@@ -49,10 +49,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a0a0a', end
 
 .text
 {
-    padding: 30px;
+    padding: 40px;
     font-size: 2vh;
     text-align: justify;
     max-width: 600px;
     margin: 0 auto;
     margin-bottom: 20px;
+    letter-spacing: 0.5px;
+    span{
+        color: $tagline;
+    }
+  
 }
