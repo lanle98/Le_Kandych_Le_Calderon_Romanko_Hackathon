@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Oswald|PT+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Nunito&display=swap");
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -150,7 +150,7 @@ body {
   margin: 0;
   padding: 0;
   font-size: 1.4rem;
-  font-family: "PT Sans", Halvetica, sans-serif;
+  font-family: "Nunito", sans-serif;
   color: #F4ECEC; }
 
 ul li {
@@ -172,7 +172,10 @@ header {
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
-  font-size: 3vh; }
+  font-size: 3vh;
+  color: #00FFFF;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold; }
 
 .text {
   padding: 40px;
@@ -276,7 +279,13 @@ header {
     margin-top: 100px; }
 
   .mockup {
-    margin-top: 175px; } }
+    margin-top: 175px; }
+
+  .textAlexa {
+    font-size: 3vh; }
+
+  #slogan {
+    font-size: 5vh; } }
 .logo2 {
   display: block;
   margin: 0 auto;
@@ -294,5 +303,31 @@ header {
 
 .huge {
   max-width: 50%; }
+
+.iWantToGoHome {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 2vh;
+  margin-bottom: 45px; }
+
+#slogan {
+  color: #00FFFF;
+  padding-top: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: "Nunito", sans-serif; }
+
+.alexa {
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px; }
+
+.textAlexa {
+  margin: 0;
+  max-width: 500px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: none; }
 
 /*# sourceMappingURL=main.css.map */
