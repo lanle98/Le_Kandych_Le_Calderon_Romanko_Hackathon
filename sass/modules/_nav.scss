@@ -11,14 +11,23 @@
       display: flex;
     }
     li {
-      padding: 20px;
+     
       list-style-type: none;
       cursor: pointer;
       transition: all 0.3s ease;
-      border-radius: 10px;
+      
       &:hover {
-        background:$header;
-        color: $navbar;
+        a{
+          // background: $header;
+          // color: $navbar;
+          // padding: 5px;
+          // // border-radius: 10px;
+          color: aquamarine;
+         }
+       
+        
+
+       
         
       }
       &:active {
@@ -66,15 +75,20 @@
     left: 0;
     margin-top: 120px;
   
-    li {
+    li{
       padding: 20px;
       font-size: 3vh;
       font-family:$secondary-font;
       text-align: center;
 
       &:hover {
-        background:$tagline;
-        color: $navbar;
+        a{
+          // background:$tagline;
+          // color: $navbar;
+          // padding: 20px;
+          color: aquamarine;
+        }
+        
         
       }
     }
