@@ -19,12 +19,27 @@
       background: $header;
       color: $navbar;
     }
-    &:active {
-      opacity: 1;
-      background: $header;
-      color: $navbar;
-      a {
+    li {
+      list-style-type: none;
+      cursor: pointer;
+      transition: all 0.3s ease;
+
+      &:hover {
+        a {
+          // background: $header;
+          // color: $navbar;
+          // padding: 5px;
+          // // border-radius: 10px;
+          color: aquamarine;
+        }
+      }
+      &:active {
+        opacity: 1;
+        background: $header;
         color: $navbar;
+        a {
+          color: $navbar;
+        }
       }
     }
   }
@@ -49,6 +64,10 @@
   display: none;
 }
 
+.navBar {
+  display: none;
+}
+
 .mobile {
   background: $navbar;
   z-index: 1;
@@ -66,10 +85,11 @@
     text-align: center;
 
     &:hover {
-      background: $tagline;
-      color: $navbar;
       a {
-        color: $navbar;
+        // background:$tagline;
+        // color: $navbar;
+        // padding: 20px;
+        color: aquamarine;
       }
     }
   }
