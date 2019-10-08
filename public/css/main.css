@@ -175,12 +175,15 @@ header {
   font-size: 3vh; }
 
 .text {
-  padding: 30px;
+  padding: 40px;
   font-size: 2vh;
   text-align: justify;
   max-width: 600px;
   margin: 0 auto;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  letter-spacing: 0.5px; }
+  .text span {
+    color: #00FFFF; }
 
 .logo {
   width: 75%;
@@ -235,7 +238,7 @@ header {
     font-family: "PT Sans", Halvetica, sans-serif;
     text-align: center; }
     .mobile li:hover {
-      background: #1A9199;
+      background: #00FFFF;
       color: #161515; }
 
 .toggle {
@@ -269,9 +272,27 @@ header {
       display: none; }
 
   .headline {
-    font-size: 5vh; } }
+    font-size: 5vh;
+    margin-top: 100px; }
+
+  .mockup {
+    margin-top: 175px; } }
 .logo2 {
   display: block;
-  margin: 0 auto; }
+  margin: 0 auto;
+  margin-bottom: 50px; }
+
+.mockup {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 55px; }
+
+#mockupfull {
+  text-align: center;
+  margin-top: 150px; }
+
+.huge {
+  max-width: 50%; }
 
 /*# sourceMappingURL=main.css.map */
