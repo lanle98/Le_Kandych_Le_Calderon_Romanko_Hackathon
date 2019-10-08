@@ -1,15 +1,54 @@
 .thermostat {
-  background: url(../images/thermostatfron_blackt.png);
   width: 100vw;
-  height: 300px;
   background-size: cover;
   justify-content: center;
   display: flex;
   position: relative;
+  align-items: center;
+
+  img {
+    width: 90vw;
+    object-fit: cover;
+  }
+
+  h1 {
+    font-size: 10vw;
+    position: absolute;
+  }
+
+  a {
+    font-size: 5%;
+    padding: 20px;
+  }
 }
 
-.rooms {
+.rooms,
+.security {
   display: flex;
   position: absolute;
-  top: 20%;
+  top: 10%;
+}
+
+.thermo-btn {
+  position: absolute;
+  bottom: 10%;
+
+  a {
+    font-size: 10%;
+  }
+}
+
+.display {
+  display: flex;
+  width: 50vw;
+  justify-content: space-between;
+  position: absolute;
+  h1 {
+    font-size: 10vw;
+    position: static;
+  }
+
+  img {
+    width: 10vw;
+  }
 }
