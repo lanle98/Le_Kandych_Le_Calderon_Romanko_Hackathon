@@ -90,20 +90,39 @@
 
   //Tablet
 @media screen and (min-width: 758px){
-.mobile{
-    li{
-        font-size: 3vh;
-    }
-}
-.text
-{
-  font-size: 3vh;
+  .mobile{
+      li{
+          font-size: 3vh;
+      }
+  }
+  .text
+  {
+    font-size: 3vh;
+  }
+
+  .logo2
+  {
+    width: 45%;
+  }
+
+
 }
 
-.logo2
-{
-  width: 45%;
-}
+@media screen and (min-width: 800px){
+
+    
+    .product{
+      display: flex;
+      flex-direction: row;
+        margin: 0 auto; 
+
+        .imageProduct{
+            width: 30%;
+        }
+    }
+
+    
+
 
 
 }
